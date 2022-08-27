@@ -19,14 +19,23 @@ header {
 
 .titulo {
     display: flex;
-    width: auto;
+    width: 40%;
     margin-top: 100px;
-    height: 50px;
+    height: 110px;
+    font-size: 40px;
+}
+
+.paragrafo {
+    display: flex;
+    width: 40%;
 }
 
 button {
     background-color: rgb(244, 139, 244);
     padding: 15px 50px;
     margin-top: 30px;
+    border-radius: 25px;
+    border: none;
+    color: white;
 }
 
