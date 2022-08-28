@@ -1,49 +1,22 @@
-body {
+header {
+    margin: 50px 50px;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
     
 }
 
-header {
-    margin: auto;
-    display: flex;
+li a {
+    padding: 10px 10px;
+    border: solid;
+    background-color: white;
+    border-radius: 20px;
 }
-
-.img-bg {
-    display: flex;
-    position: fixed;
-}
-
-.img-logo {
-    width: 20%;
-    position: relative;
-
-}
-
-
-
-.caixa {
-    display: inline-block;
-    position: relative;
-}
-
-.titulo {
-    display: flex;
-    width: 40%;
-    margin-top: 100px;
-    height: 110px;
-    font-size: 40px;
-}
-
-.paragrafo {
-    display: flex;
-    width: 40%;
-}
-
-button {
-    background-color: rgb(244, 139, 244);
-    padding: 15px 50px;
-    margin-top: 30px;
-    border-radius: 25px;
-    border: none;
-    color: white;
-}
-
