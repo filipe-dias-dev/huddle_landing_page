@@ -22,12 +22,25 @@ li a {
     border: solid;
     background-color: white;
     border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .titulo {
-    width: 10%;
+    position: relative;
+    top: 100px;
+    width: 19%;
+    font-size: 30px;
 }
 
 .paragrafo {
-    width: 26%;
+    position: relative;
+    top: 130px;
+    width: 24%;
+}
+
+#botao {
+    position: relative;
+    top: 170px;
+    padding: 15px 40px;
 }
