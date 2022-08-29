@@ -110,21 +110,21 @@ li a {
     border: solid white;
     border-radius: 10px;
     margin: 30px 80px;
-    top: 540px;
+    top: 640px;
     box-shadow: 20px 20px 22px 11px rgba(0, 0, 0, 0.2);
 }
 
 .paragrafo_flowing {
-    position: relative;
+    position: absolute;
     top: 230px;
-    left: 100px;
-    width: 36%;
+    left: 900px;
+    width: 25%;
 }
 
 .flowing {
-    position: relative;
-    top: 200px;
-    left: 100px;
+    position: absolute;
+    top: 170px;
+    left: 900px;
     font-size: 30px;
 }
 
@@ -132,7 +132,59 @@ li a {
     display: flex;
     position: relative;
     width: 50%;
+    left: 0px;
+    margin: 0 60px;
+}
+
+.caixa_3 {
+    position: relative;
+    display: flex;
+    border: solid white;
+    border-radius: 10px;
+    margin: 30px 80px;
+    top: 740px;
+    box-shadow: 20px 20px 22px 11px rgba(0, 0, 0, 0.2);
+}
+
+.paragrafo_users {
+    position: relative;
+    top: 230px;
+    left: 100px;
+    width: 36%;
+}
+
+.users {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    font-size: 30px
+}
+
+#img_users {
+    display: flex;
+    position: relative;
+    width: 50%;
     left: 500px;
     margin: auto;
 }
 
+.texto_botao {
+    position: absolute;
+    width: 20%;
+    top: 200px;
+}
+
+#botao_started {
+    position: relative;
+    top: 250px;
+    padding: 15px 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(250, 107, 224);
+    color: white;
+}
+
+.caixa_4 {
+    position: absolute;
+    width: 70%;  
+}
