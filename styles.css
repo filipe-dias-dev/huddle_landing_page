@@ -2,6 +2,10 @@ header {
     margin: 50px 50px;
 }
 
+.img-logo {
+    width: 100px;
+}
+
 nav {
     position: absolute;
     top: 50px;
@@ -11,7 +15,6 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;
-    
 }
 
 li a {
@@ -19,4 +22,12 @@ li a {
     border: solid;
     background-color: white;
     border-radius: 20px;
+}
+
+.titulo {
+    width: 10%;
+}
+
+.paragrafo {
+    width: 26%;
 }
