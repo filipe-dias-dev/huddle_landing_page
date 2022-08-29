@@ -175,7 +175,7 @@ li a {
 }
 
 #botao_started {
-    position: relative;
+    position: absolute;
     top: 250px;
     padding: 15px 40px;
     border-radius: 25px;
@@ -185,6 +185,25 @@ li a {
 }
 
 .caixa_4 {
-    position: absolute;
-    width: 70%;  
+    position: relative;
+    display: flex;
+    border: solid white;
+    border-radius: 10px;
+    margin: 40px 480px;
+    padding: 80px;
+    top: 940px;
+    box-shadow: 20px 20px 22px 11px rgba(0, 0, 0, 0.2);
+}
+
+.titulo_button {
+    position: relative;
+    left: 60px;
+    font-size: 30px
+}
+
+.button_started {
+    position: relative;
+    top: 40px;
+    left: 180px;
+    width: 36%;
 }
