@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-color: whitesmoke;
 }
 
 .navegacao_header a {
@@ -244,11 +245,11 @@ li a {
 
 .footer {
   position: relative;
-  background-color: rgb(10, 45, 47) ;
+  background-color: rgb(62, 124, 128) ;
   display: flex;
-  padding-top: 10px;
+  padding-top: 40px;
   padding-bottom: 30px;
-  
+  margin-top: 100px;
 }
 
 .footer_info {
