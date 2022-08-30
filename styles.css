@@ -222,3 +222,32 @@ li a {
   background-color: rgb(250, 107, 224);
   color: white;
 }
+
+.footer {
+  background-color: rgb(10, 45, 47) ;
+  display: flex;
+
+}
+
+.footer_info {
+  text-align: center;
+  width: 200px;
+}
+
+.footer_info li {
+  font-size: large;
+  display: block;
+  padding-top: 20px;
+  color: white;
+}
+
+.footer_contatos {
+  width: 360px;
+  bottom: 20px;
+  padding: 20px 160px;
+}
+
+.footer_contatos li {
+  padding-bottom: 20px;
+}
+
