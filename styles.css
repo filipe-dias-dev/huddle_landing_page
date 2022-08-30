@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif
+}
+
 .navegacao {
   display: inline-block;
   position: relative;
@@ -26,8 +30,8 @@
 }
 
 .secao_header {
-  display: inline-block;
-  margin: auto 300px;
+  display: flex;
+  padding-top: 30px;
 }
 
 li a {
@@ -36,14 +40,15 @@ li a {
   width: 100%;
   padding: 10px 60px;
   border: none;
-  color: black;
   border-radius: 30px;
   text-decoration: none;
   box-shadow: 20px 20px 22px 11px rgba(0, 0, 0, 0.2);
 }
 
 #img_mock {
-  text-align:end;
+  margin: 0 auto;
+  text-align: end;
+  position: relative;
 }
 
 .mockups_img {
@@ -51,20 +56,29 @@ li a {
 }
 
 .titulo {
+  display: flex;
   position: relative;
   width: 100%;
   max-width: 380px;
   font-size: 30px;
-  height: 90px;
+  bottom: 300px;
+  text-align: justify;
 }
 
 .paragrafo {
-  position: relative;
+  display: block;
+  position: absolute;
   max-width: 400px;
   height: 90px;
+  margin: 0;
+  text-align: justify;
+  bottom: 150px;
 }
 
 #botao {
+  position: absolute;
+  display: flex;
+  bottom: 100px;
   padding: 15px 40px;
   border-radius: 25px;
   border: none;
