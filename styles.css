@@ -1,32 +1,71 @@
 header {
-    margin: 100px ;
+    margin: auto ;
 }
+
+.navegacao {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.imagem_logo {
+    width: 150px;
+}
+
+.header,
+.navegacao_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header {
+    height: 3.5em;
+    justify-content: space-between;
+}
+
 
 #texto-topo {
     margin: 0;
     position: relative;
     top: 40px;
+    width: auto;
+    text-align: center;
+}
+
+.caix {
+    background-color: red;
+    display: block;
+    padding: 0px ;
+}
+
+.try {
+    display: inline-block;
+    position: relative;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .img-logo {
     width: 100px;
-    position: absolute;
+    position: relative;
     
 }
 
 nav {
-    position: absolute;
-    left: 100px;
+    position: relative;
+   
 }
 
 nav li {
     display: inline;
-    margin: auto
+    margin: auto;
 }
 
 li a {
     display: flex;
-    position: absolute;
+    position: relative;
+    width: 100%;
     padding: 10px 60px;
     border: none;
     color: black;
@@ -36,22 +75,20 @@ li a {
 }
 
 .titulo {
-    position: absolute;
-    top: 170px;
-    width: 19%;
+    position: relative;
+    width: 100%;
     font-size: 30px;
 }
 
 .paragrafo {
-    position: absolute;
-    top: 260px;
-    width: 24%;
+    position: relative;
+    
+    width: 100%;
     padding: 0;
 }
 
 #botao {
-    position: relative;
-    top: 250px;
+    
     padding: 15px 40px;
     border-radius: 25px;
     border: none;
@@ -59,49 +96,46 @@ li a {
     color: white;
 }
 
-.img_mockups {
+.imagens {
     position: absolute;
-    display: flex;
-    left: 420px;
-    padding-left: 500px;
-    width: 40%;
+    padding: 0px 0px 0px 650px;
+    display: block;
+    width: 10%;
 }
 
-.img_desktop {
-    position: absolute;
-    width: 100%;
+.img_mockups {
+    position: relative;
+    display: flex;
+    width: 40%;
+    margin: 10px auto;    
 }
 
 .caixa_1 {
     position: relative;
-    display: flex;
+    display: block;
     border: solid white;
+    width: 50%;
     border-radius: 10px;
-    margin: 30px 80px;
-    top: 540px;
+    padding: 50px 90px;
+    top: 10px;
+    margin: 10px auto;
     box-shadow: 20px 20px 22px 11px rgba(0, 0, 0, 0.2);
 }
 
 .paragrafo_torgether {
     position: relative;
-    top: 230px;
-    left: 100px;
-    width: 36%;
+    width: 100%;
 }
 
 .torgether {
     position: relative;
-    top: 200px;
-    left: 100px;
     font-size: 30px;
 }
 
 #img_torgether {
-    display: flex;
+    display: block;
     position: relative;
-    width: 50%;
-    left: 500px;
-    margin: auto;
+    width: 50%;   
 }
 
 .caixa_2 {
@@ -109,23 +143,21 @@ li a {
     display: flex;
     border: solid white;
     border-radius: 10px;
-    margin: 30px 80px;
-    top: 640px;
+    width: 100%;
     box-shadow: 20px 20px 22px 11px rgba(0, 0, 0, 0.2);
 }
 
 .paragrafo_flowing {
-    position: absolute;
+    position: relative;
     top: 230px;
-    left: 900px;
-    width: 25%;
+    
+    width: 60%;
 }
 
 .flowing {
-    position: absolute;
-    top: 170px;
-    left: 900px;
+    position: relative;
     font-size: 30px;
+    width: 100%;
 }
 
 #img_flowing {
@@ -133,7 +165,6 @@ li a {
     position: relative;
     width: 50%;
     left: 0px;
-    margin: 0 60px;
 }
 
 .caixa_3 {
@@ -141,7 +172,7 @@ li a {
     display: flex;
     border: solid white;
     border-radius: 10px;
-    margin: 30px 80px;
+    
     top: 740px;
     box-shadow: 20px 20px 22px 11px rgba(0, 0, 0, 0.2);
 }
@@ -149,33 +180,32 @@ li a {
 .paragrafo_users {
     position: relative;
     top: 230px;
-    left: 100px;
     width: 36%;
 }
 
 .users {
     position: relative;
     top: 200px;
-    left: 100px;
-    font-size: 30px
+    
+    font-size: 30px;
+    width: 100%;
 }
 
 #img_users {
     display: flex;
     position: relative;
-    width: 50%;
-    left: 500px;
+    width: 100%;
     margin: auto;
 }
 
 .texto_botao {
-    position: absolute;
+    position: relative;
     width: 20%;
     top: 200px;
 }
 
 #botao_started {
-    position: absolute;
+    position: relative;
     top: 250px;
     padding: 15px 40px;
     border-radius: 25px;
@@ -189,8 +219,8 @@ li a {
     display: flex;
     border: solid white;
     border-radius: 10px;
-    margin: 40px 480px;
-    padding: 80px;
+    
+    
     top: 940px;
     box-shadow: 20px 20px 22px 11px rgba(0, 0, 0, 0.2);
 }
